@@ -3,12 +3,12 @@ pipeline {
   stages {
     stage('version') {
       steps {
-        sh 'python3 --version'
+        sh 'python --version'
       }
     }
     stage('hello') {
       steps {
-        C:\Program Files\Git\cmd\git.exe 'python3 temp.py'
+        bat 'python temp.py'
       }
     }
   }
