@@ -3,12 +3,12 @@ pipeline {
   stages {
     stage('version') {
       steps {
-        bat 'python --version'
+        bat 'C:\\Users\\Anurag\\AppData\\Local\\Programs\\Python\\Python312\\python.exe --version'
       }
     }
     stage('hello') {
       steps {
-        bat 'python temp.py'
+        bat 'C:\\Users\\Anurag\\AppData\\Local\\Programs\\Python\\Python312\\python.exe temp.py'
       }
     }
   }
