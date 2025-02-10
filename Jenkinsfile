@@ -8,7 +8,7 @@ pipeline {
     }
     stage('hello') {
       steps {
-        sh 'python3 temp.py'
+        C:\Program Files\Git\cmd\git.exe 'python3 temp.py'
       }
     }
   }
